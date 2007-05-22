@@ -1,0 +1,190 @@
+python-kid
+------------------------------------------
+Kid is a simple template language for XML based vocabularies written 
+in Python.
+
+Runtime requirements:
+  python-2.5.1-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  python-2.5.1-1
+  python-setuptools-0.6c5-2
+
+Canonical website:
+  http://www.kid-templating.org/
+  http://cheeseshop.python.org/pypi/kid
+
+Canonical download:
+  http://www.kid-templating.org/dist/
+  http://cheeseshop.python.org/packages/source/k/kid/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-kid-0.9.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-kid-0.9.5-X.cygport all
+
+This will create:
+  /usr/src/python-kid-0.9.5-X-src.tar.bz2
+  /usr/src/python-kid-0.9.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/kid
+  /usr/bin/kidc
+  /usr/lib/python2.5/site-packages/kid-0.9.5-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/kid-0.9.5-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/kid-0.9.5-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/kid-0.9.5-py2.5.egg-info/entry_points.txt
+  /usr/lib/python2.5/site-packages/kid-0.9.5-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/kid/__init__.py
+  /usr/lib/python2.5/site-packages/kid/__init__.pyc
+  /usr/lib/python2.5/site-packages/kid/__init__.pyo
+  /usr/lib/python2.5/site-packages/kid/codewriter.py
+  /usr/lib/python2.5/site-packages/kid/codewriter.pyc
+  /usr/lib/python2.5/site-packages/kid/codewriter.pyo
+  /usr/lib/python2.5/site-packages/kid/compile.py
+  /usr/lib/python2.5/site-packages/kid/compile.pyc
+  /usr/lib/python2.5/site-packages/kid/compile.pyo
+  /usr/lib/python2.5/site-packages/kid/compiler.py
+  /usr/lib/python2.5/site-packages/kid/compiler.pyc
+  /usr/lib/python2.5/site-packages/kid/compiler.pyo
+  /usr/lib/python2.5/site-packages/kid/element.py
+  /usr/lib/python2.5/site-packages/kid/element.pyc
+  /usr/lib/python2.5/site-packages/kid/element.pyo
+  /usr/lib/python2.5/site-packages/kid/filter.py
+  /usr/lib/python2.5/site-packages/kid/filter.pyc
+  /usr/lib/python2.5/site-packages/kid/filter.pyo
+  /usr/lib/python2.5/site-packages/kid/format.py
+  /usr/lib/python2.5/site-packages/kid/format.pyc
+  /usr/lib/python2.5/site-packages/kid/format.pyo
+  /usr/lib/python2.5/site-packages/kid/importer.py
+  /usr/lib/python2.5/site-packages/kid/importer.pyc
+  /usr/lib/python2.5/site-packages/kid/importer.pyo
+  /usr/lib/python2.5/site-packages/kid/namespace.py
+  /usr/lib/python2.5/site-packages/kid/namespace.pyc
+  /usr/lib/python2.5/site-packages/kid/namespace.pyo
+  /usr/lib/python2.5/site-packages/kid/options.py
+  /usr/lib/python2.5/site-packages/kid/options.pyc
+  /usr/lib/python2.5/site-packages/kid/options.pyo
+  /usr/lib/python2.5/site-packages/kid/parser.py
+  /usr/lib/python2.5/site-packages/kid/parser.pyc
+  /usr/lib/python2.5/site-packages/kid/parser.pyo
+  /usr/lib/python2.5/site-packages/kid/pull.py
+  /usr/lib/python2.5/site-packages/kid/pull.pyc
+  /usr/lib/python2.5/site-packages/kid/pull.pyo
+  /usr/lib/python2.5/site-packages/kid/release.py
+  /usr/lib/python2.5/site-packages/kid/release.pyc
+  /usr/lib/python2.5/site-packages/kid/release.pyo
+  /usr/lib/python2.5/site-packages/kid/run.py
+  /usr/lib/python2.5/site-packages/kid/run.pyc
+  /usr/lib/python2.5/site-packages/kid/run.pyo
+  /usr/lib/python2.5/site-packages/kid/serialization.py
+  /usr/lib/python2.5/site-packages/kid/serialization.pyc
+  /usr/lib/python2.5/site-packages/kid/serialization.pyo
+  /usr/lib/python2.5/site-packages/kid/server.py
+  /usr/lib/python2.5/site-packages/kid/server.pyc
+  /usr/lib/python2.5/site-packages/kid/server.pyo
+  /usr/lib/python2.5/site-packages/kid/template_util.py
+  /usr/lib/python2.5/site-packages/kid/template_util.pyc
+  /usr/lib/python2.5/site-packages/kid/template_util.pyo
+  /usr/lib/python2.5/site-packages/kid/test/__init__.py
+  /usr/lib/python2.5/site-packages/kid/test/__init__.pyc
+  /usr/lib/python2.5/site-packages/kid/test/__init__.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_attribute_interpolation.py
+  /usr/lib/python2.5/site-packages/kid/test/test_attribute_interpolation.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_attribute_interpolation.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_codewriter.py
+  /usr/lib/python2.5/site-packages/kid/test/test_codewriter.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_codewriter.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_comment.py
+  /usr/lib/python2.5/site-packages/kid/test/test_comment.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_comment.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_compiler.py
+  /usr/lib/python2.5/site-packages/kid/test/test_compiler.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_compiler.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_element.py
+  /usr/lib/python2.5/site-packages/kid/test/test_element.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_element.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_error.py
+  /usr/lib/python2.5/site-packages/kid/test/test_error.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_error.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_extended_layout.py
+  /usr/lib/python2.5/site-packages/kid/test/test_extended_layout.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_extended_layout.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_extends.py
+  /usr/lib/python2.5/site-packages/kid/test/test_extends.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_extends.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_format.py
+  /usr/lib/python2.5/site-packages/kid/test/test_format.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_format.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_kid.py
+  /usr/lib/python2.5/site-packages/kid/test/test_kid.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_kid.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_kid_lang.py
+  /usr/lib/python2.5/site-packages/kid/test/test_kid_lang.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_kid_lang.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_layout.py
+  /usr/lib/python2.5/site-packages/kid/test/test_layout.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_layout.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_match.py
+  /usr/lib/python2.5/site-packages/kid/test/test_match.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_match.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_namespace.py
+  /usr/lib/python2.5/site-packages/kid/test/test_namespace.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_namespace.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_options.py
+  /usr/lib/python2.5/site-packages/kid/test/test_options.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_options.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_parser.py
+  /usr/lib/python2.5/site-packages/kid/test/test_parser.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_parser.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_scope.py
+  /usr/lib/python2.5/site-packages/kid/test/test_scope.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_scope.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization.py
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization_escaping.py
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization_escaping.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_serialization_escaping.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_suffixes.py
+  /usr/lib/python2.5/site-packages/kid/test/test_suffixes.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_suffixes.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_templatepath.py
+  /usr/lib/python2.5/site-packages/kid/test/test_templatepath.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_templatepath.pyo
+  /usr/lib/python2.5/site-packages/kid/test/test_unicode.py
+  /usr/lib/python2.5/site-packages/kid/test/test_unicode.pyc
+  /usr/lib/python2.5/site-packages/kid/test/test_unicode.pyo
+  /usr/lib/python2.5/site-packages/kid/test/util.py
+  /usr/lib/python2.5/site-packages/kid/test/util.pyc
+  /usr/lib/python2.5/site-packages/kid/test/util.pyo
+  /usr/lib/python2.5/site-packages/kid/util.py
+  /usr/lib/python2.5/site-packages/kid/util.pyc
+  /usr/lib/python2.5/site-packages/kid/util.pyo
+  /usr/share/doc/Cygwin/python-kid-0.9.5.README
+  /usr/share/doc/python-kid-0.9.5/COPYING
+  /usr/share/doc/python-kid-0.9.5/ChangeLog
+  /usr/share/doc/python-kid-0.9.5/HISTORY
+  /usr/share/doc/python-kid-0.9.5/README
+
+------------------
+
+Port Notes:
+
+----- version 0.9.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
