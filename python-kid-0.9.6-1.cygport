@@ -1,0 +1,2 @@
+ORIG_PN=kid
+inherit distutils
